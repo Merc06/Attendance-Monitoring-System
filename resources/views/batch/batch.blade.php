@@ -24,7 +24,7 @@
         @if(count($batches) > 0)
             @foreach($batches as $batch)
                 <tr>
-                    <td>Batch {{ $batch->id }}</td>
+                    <td>Batch {{ $batch-id }}</td>
                     <td>{{ $batch->studcount }}</td>
                     <td>{{ $batch->start }}</td>
                     <td>

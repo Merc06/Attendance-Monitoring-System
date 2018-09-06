@@ -100,7 +100,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             {{Form::label('photo', 'Upload Picture',['class' => 'control-label'])}}
-                            {{Form::file('photo', '', ['class' => 'form-control-file'])}}
+                            {{Form::file('photo', ['class' => 'form-control-file'])}}
                         </div>
                     </div><br>
                     <div class="form-row">

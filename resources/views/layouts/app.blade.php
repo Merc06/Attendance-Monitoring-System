@@ -60,7 +60,7 @@
         @yield('content')
         <div class="footer">
             <hr>
-            <p class="text-center">Copyright &copy; Pierre & Paul Solutions Inc, ( Developer: Marc Asoy )</p>
+            <p class="text-center">Copyright &copy; 2018 <strong>Pierre & Paul Solutions Inc</strong></p>
         </div>
     </div>
 

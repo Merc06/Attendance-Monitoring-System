@@ -50,7 +50,7 @@ class BatchController extends Controller
         
         $batch->save();
 
-        Session::flash('success', 'Success!');
+        Session::flash('success', 'Batch Created!');
 
         return redirect('/batch');
     }
@@ -98,7 +98,7 @@ class BatchController extends Controller
     public function destroy(Request $request)
     {
         $batch = Batch::find($request->batch_id);
-        $query = Student::all();
+        $query = Student::all()->where('batch', $request->batch_id);
 
         if($query == '[]'){
 
